@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylesheets/style.css">
+</head>
+
+    <body>
+        <div class="container">
+            <header>
+                <div class="logo">Status Page</div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Manage Instances</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <div class="status-header">
+                    <div class="status-indicator"><i class="fa-solid fa-circle-check"></i></div>
+                    <div class="status-text">
+                        <h1>All services are online.</h1>
+                    </div>
+                </div>
+                <div class="status-overview">
+                    <div class="status-by-service">
+                        <h2>Status by service</h2>
+                        <div class="status-dropdown"><i class="fa-solid fa-circle-check"></i> Operational</div>
+                    </div>
+                    <div class="status-list">
+                        <div class="status-item">
+                            <div class="status-info">
+                                <span class="status-name">API</span>
+                                <span class="status-percentage">99.98% uptime</span>
+                            </div>
+                            <div class="status-bars" id="api-bars"></div>
+                            <div class="status-info">
+                                <span class="status-period">Last 7 days</span>
+                                <span class="status-period">Today</span>
+                            </div>
+                        </div>
+                        <div class="status-item">
+                            <div class="status-info">
+                                <span class="status-name">Dedicated Server</span>
+                                <span class="status-percentage">99.99% uptime</span>
+                            </div>
+                            <div class="status-bars" id="logs-bars"></div>
+                            <div class="status-info">
+                                <span class="status-period">Last 7 days</span>
+                                <span class="status-period">Today</span>
+                            </div>
+                        </div>
+                        <div class="status-item">
+                            <div class="status-info">
+                                <span class="status-name">Website</span>
+                                <span class="status-percentage">89.56% uptime</span>
+                            </div>
+                            <div class="status-bars" id="better-stack-bars"></div>
+                            <div class="status-info">
+                                <span class="status-period">Last 7 days</span>
+                                <span class="status-period">Today</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>        </div>
+        <script src="../javascript/script.js"></script>
+</body>
+</html>

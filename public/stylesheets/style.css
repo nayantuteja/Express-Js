@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f0f14;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #161624;
+    border-bottom: 1px solid #2c2c38;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #999999;
+    font-size: 1em;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #0f0f14;
+}
+
+.status-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.status-indicator {
+    font-size: 4em;
+    color: #13B882;
+    margin-bottom: 10px;
+}
+
+.status-text h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.status-text p {
+    margin: 0;
+    font-size: 1em;
+    color: #999999;
+}
+
+.status-overview {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #161624;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.status-by-service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.status-by-service h2 {
+    margin: 0;
+    font-size: 1em;
+    color: #bbbbbb;
+}
+
+.status-dropdown {
+    background-color: #292938;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    color: #13B882;
+}
+
+.status-list .status-item {
+    margin-bottom: 30px;
+}
+
+.status-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.status-info .status-name {
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.status-info .status-percentage {
+    font-size: 1em;
+    color: #07BA7F;
+}
+
+.status-bars {
+    display: flex;
+    gap: 2px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.status-bar {
+    flex: 1;
+    height: 50px;
+    background: #13B882;
+    border-radius: 3px;
+}
+
+.status-bar-down {
+    background: #E74C3C;
+}
+
+.status-info .status-period {
+    font-size: 0.9em;
+    color: #bbbbbb;
+}
